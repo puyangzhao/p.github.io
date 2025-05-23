@@ -9,13 +9,13 @@ redirect_from:
 
 # Welcome to Puyang's Personal Websites! 🚀
 
-# 👋 Hello, I'm Puyang!
+# 👋 Hello!
 
 ## 🎓 Academic Journey
 - Ph.D. student in Biostatistics and Data Science, UT Health Science Center at Houston
 - M.Sc. in Mathematics and Statistics, University of Melbourne
 
-I am currently a Research Assistant (RA) and Teaching Assistant (TA) at UTHealth, focusing on tobacco control research. My academic journey includes ongoing Ph.D. studies in Biostatistics and Data Science at UT Health Science Center at Houston, preceded by an M.Sc. in Mathematics and Statistics from the University of Melbourne.
+I am currently a Research Assistant (RA) at UTHealth, focusing on tobacco control research. My academic journey includes ongoing Ph.D. studies in Biostatistics and Data Science at UT Health Science Center at Houston, preceded by an M.Sc. in Mathematics and Statistics from the University of Melbourne.
 
 ## 🔬 Research Interests
 
@@ -26,7 +26,6 @@ My research interests span a wide range of areas in biostatistics and data scien
 - Longitudinal & EMA (Ecological Momentary Assessment) data analysis
 - Multivariate analysis and time series analysis
 - Machine learning applications in health research
-- Spatial statistics and Bayesian computation
 - E-cigarette and tobacco use behaviors
 - Environmental health impacts
 
@@ -50,4 +49,4 @@ Email: Puyang.Zhao@uth.tmc.edu
 
 ---
 
-*Last updated: August 2024*
+*Last updated: May 2025*
