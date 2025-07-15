@@ -23,3 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+// Apply dark/light mode to top navigation bar
+.masthead, .masthead nav, .site-header {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+.masthead a,
+.masthead .site-title,
+.masthead .site-nav a {
+  color: var(--text-color) !important;
+}
