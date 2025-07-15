@@ -31,20 +31,25 @@
 
 
 <!-- end custom head snippets -->
-<!-- Light/Dark Mode Toggle Script -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const toggle = document.getElementById("dark-mode-toggle");
     const currentTheme = localStorage.getItem("theme");
 
+    // 初始化时根据 localStorage 设置主题和按钮图标
     if (currentTheme === "dark") {
       document.documentElement.classList.add("dark-mode");
+      toggle.innerText = "☀️";
+    } else {
+      toggle.innerText = "🌙";
     }
 
     toggle?.addEventListener("click", function () {
       document.documentElement.classList.toggle("dark-mode");
       const theme = document.documentElement.classList.contains("dark-mode") ? "dark" : "light";
       localStorage.setItem("theme", theme);
+      toggle.innerText = theme === "dark" ? "☀️" : "🌙"; // 👈 动态更新按钮图标
     });
   });
 </script>
+
