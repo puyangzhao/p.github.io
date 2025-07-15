@@ -30,23 +30,23 @@ My research interests span a wide range of areas in biostatistics and data scien
 
 ### 📝 Peer-Reviewed Journal Articles
 
-- Zhang H., **Zhao P.***, Tang G., Li Z., Yuan Z.  Reproducible and Generalizable Speech Emotion Recognition via an Intelligent Fusion Network. *Biomedical Signal Processing and Control*, May 2025.
+- Zhang H., **Zhao P.***, Tang G., Li Z., Yuan Z.  Reproducible and Generalizable Speech Emotion Recognition via an Intelligent Fusion Network. Biomedical Signal Processing and Control, May 2025.
 
-- **Zhao P.**, Yang J., Buu A.*  Applied Statistical Methods for Identifying Features of Heart Rate that Are Associated with Nicotine Vaping. *The American Journal of Drug and Alcohol Abuse*, Feb 2025.
+- **Zhao P.**, Yang J., Buu A.*  Applied Statistical Methods for Identifying Features of Heart Rate that Are Associated with Nicotine Vaping. The American Journal of Drug and Alcohol Abuse, Feb 2025.
 
-- Zhang H.*, Huang H., **Zhao P.**, Yu Z.  Sparse Temporal-Aware Capsule Network for Robust Speech Emotion Recognition. *Engineering Applications of Artificial Intelligence*, 2025.
+- Zhang H.*, Huang H., **Zhao P.**, Yu Z.  Sparse Temporal-Aware Capsule Network for Robust Speech Emotion Recognition. Engineering Applications of Artificial Intelligence, 2025.
 
-- Zhang H.*, Huang H., **Zhao P.**, Zhu X., Yu Z. CENN: Capsule-Enhanced Neural Network with Innovative Metrics for Robust Speech Emotion Recognition. *Knowledge-Based Systems*, Sep 2024.
+- Zhang H.*, Huang H., **Zhao P.**, Zhu X., Yu Z. CENN: Capsule-Enhanced Neural Network with Innovative Metrics for Robust Speech Emotion Recognition. Knowledge-Based Systems, Sep 2024.
 
-- **Zhao P.**, Liu X., Yue Z., Zhao Q., Liu X., Deng Y., Wu J.*  DiGAN Breakthrough: Advancing Diabetic Data Analysis with Innovative GAN-Based Imbalance Correction Techniques. *Computer Methods and Programs in Biomedicine Update*, 2024.
+- **Zhao P.**, Liu X., Yue Z., Zhao Q., Liu X., Deng Y., Wu J.*  DiGAN Breakthrough: Advancing Diabetic Data Analysis with Innovative GAN-Based Imbalance Correction Techniques. Computer Methods and Programs in Biomedicine Update, 2024.
   
 ### 📄 Conference Proceedings
 
-- **Zhao P.**, Yue Z., Liu X., Wu J.  Weighted Federated Learning with Encryption for Diabetes Classification. *IEEE CPS, AIxMHC*, Taiwan, 2025. *(Accepted)*
+- **Zhao P.**, Yue Z., Liu X., Wu J.  Weighted Federated Learning with Encryption for Diabetes Classification. IEEE CPS, AIxMHC, Taiwan, 2025. *(Accepted)*
 
-- **Zhao P.**, Tian W., Xiao L., Liu X., Wu J.  An Attention-Based Long Short-Term Memory Framework for Detection of Bitcoin Scams. *IEEE HDIS*, Tianjin, 2022. *(Best Paper Nomination)*
+- **Zhao P.**, Tian W., Xiao L., Liu X., Wu J.  An Attention-Based Long Short-Term Memory Framework for Detection of Bitcoin Scams. IEEE HDIS, Tianjin, 2022. (Best Paper Nomination)
 
-- **Zhao P.**, Tian W.  Research on Prediction of Solar Power Considering the Methods of Statistical and Machine Learning – Based on the Data of Australian Solar Power Market.  *IOP Conference Series: Earth and Environmental Science*, Tokyo, 2022.
+- **Zhao P.**, Tian W.  Research on Prediction of Solar Power Considering the Methods of Statistical and Machine Learning – Based on the Data of Australian Solar Power Market.  IOP Conference Series: Earth and Environmental Science, Tokyo, 2022.
 
 ---
 
