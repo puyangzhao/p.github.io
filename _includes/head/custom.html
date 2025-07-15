@@ -28,5 +28,22 @@
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!-- Light/Dark Mode Toggle Script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.getElementById("dark-mode-toggle");
+    const currentTheme = localStorage.getItem("theme");
+
+    if (currentTheme === "dark") {
+      document.documentElement.classList.add("dark-mode");
+    }
+
+    toggle?.addEventListener("click", function () {
+      document.documentElement.classList.toggle("dark-mode");
+      const theme = document.documentElement.classList.contains("dark-mode") ? "dark" : "light";
+      localStorage.setItem("theme", theme);
+    });
+  });
+</script>
 
 <!-- end custom head snippets -->
