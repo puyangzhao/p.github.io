@@ -66,15 +66,3 @@
 .masthead .site-nav a {
   color: var(--text-color) !important;
 }
-/* === Dark mode support for masthead === */
-[data-theme="dark"] .masthead,
-[data-theme="dark"] .site-header {
-  background-color: #1e1e1e !important;
-  color: #eeeeee !important;
-}
-
-[data-theme="dark"] .masthead a,
-[data-theme="dark"] .masthead .site-title,
-[data-theme="dark"] .masthead .site-nav a {
-  color: #eeeeee !important;
-}
