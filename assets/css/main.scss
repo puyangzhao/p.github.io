@@ -106,11 +106,12 @@ h1, h2, h3, h4, h5, h6 {
   --link-color: #1a0dab;
 }
 
-.dark-mode {
+[data-theme="dark"] {
   --bg-color: #1e1e1e;
   --text-color: #eeeeee;
   --link-color: #4ea1ff;
 }
+
 
 body {
   background-color: var(--bg-color);
