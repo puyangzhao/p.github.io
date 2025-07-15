@@ -81,6 +81,17 @@
     font-size: 14px;
     color: #333333; 
 }
+// === Custom Font and Size Overrides ===
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px; // 根据需要调整，比如 16px、18px
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: bold;
+}
 
 @import "sidebar";
 
