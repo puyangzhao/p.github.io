@@ -2,11 +2,14 @@
 permalink: /
 title: ""
 author_profile: true
+classes: wide
 redirect_from: 
   - /about/
   - /about.html
 ---
-
+<button id="dark-mode-toggle" style="position: fixed; top: 10px; right: 10px; z-index: 9999;">
+  🌙 / ☀️
+</button>
 # Puyang's Personal Website 🚀
 
 ## 🎓 Academic Journey
