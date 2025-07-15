@@ -92,6 +92,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
   font-weight: bold;
 }
+
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
 :root {
   --bg-color: #ffffff;
   --text-color: #111111;
@@ -112,11 +120,3 @@ body {
 a {
   color: var(--link-color);
 }
-
-@import "sidebar";
-
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
