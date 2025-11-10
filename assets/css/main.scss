@@ -121,21 +121,46 @@ body {
 a {
   color: var(--link-color);
 }
-/* === Make Top Navigation Bar Transparent === */
-.masthead {
-  background-color: transparent !important; /* 背景透明 */
-  box-shadow: none !important;              /* 移除阴影 */
-  border-bottom: none !important;           /* 移除底部边框 */
-}
+---
+---
 
-/* 可选：调整导航文字颜色，以防背景透明后看不清 */
-.masthead a,
-.site-title a {
-  color: #111111 !important;  /* 深色文字 */
-}
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
 
-[data-theme="dark"] .masthead a,
-[data-theme="dark"] .site-title a {
-  color: #eeeeee !important;  /* 暗色模式下变亮 */
-}
+@import
+    "vendor/breakpoint/breakpoint",
 
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
