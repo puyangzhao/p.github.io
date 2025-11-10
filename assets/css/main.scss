@@ -2,27 +2,49 @@
 ---
 
 /*
- *    Minimal Mistakes Jekyll Theme
+ * This file controls what is imported from /_sass
  *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
 
 @import
     "vendor/breakpoint/breakpoint",
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
 
 @import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+@import "animations";
 
-@import "reset";
-@import "base";
 
 .publication {
     color: #333; /* 更深的颜色 */
@@ -42,20 +64,7 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 }
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
 
-@import "forms";
-
-@import "page";
-@import "archive";
 /* 修改整个 archive__item 区域的字体样式 */
 .archive__item {
     font-family: 'Arial', sans-serif; /* 修改字体 */
