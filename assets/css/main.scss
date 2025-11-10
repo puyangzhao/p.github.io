@@ -121,3 +121,21 @@ body {
 a {
   color: var(--link-color);
 }
+/* === Make Top Navigation Bar Transparent === */
+.masthead {
+  background-color: transparent !important; /* 背景透明 */
+  box-shadow: none !important;              /* 移除阴影 */
+  border-bottom: none !important;           /* 移除底部边框 */
+}
+
+/* 可选：调整导航文字颜色，以防背景透明后看不清 */
+.masthead a,
+.site-title a {
+  color: #111111 !important;  /* 深色文字 */
+}
+
+[data-theme="dark"] .masthead a,
+[data-theme="dark"] .site-title a {
+  color: #eeeeee !important;  /* 暗色模式下变亮 */
+}
+
